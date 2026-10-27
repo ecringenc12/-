@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	char ad[30];
+	char *x=ad;
+	printf("Adinizi girin-> ");
+	scanf("%29s",ad);
+	printf("Adinizin bellek degeri-> %p",(void*)ad);
+	
+	
+	
+	return 0;
+}
